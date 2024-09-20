@@ -1,0 +1,4 @@
+databaseChangeLog:
+  - includeAll:
+      # All paths are relative to the /liquibase directory inside the Docker container
+      path: changelog/table
